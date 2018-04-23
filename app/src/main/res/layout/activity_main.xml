@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/yoda"
+        android:src="@drawable/yodasmall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/happy_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Happy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/happy_text_view"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="STAR WARS DAY" />
+
+    <TextView
+        android:id="@+id/may_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/be_text_view"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="May the 4th"/>
+
+    <TextView
+        android:id="@+id/be_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16sp"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="be with you!"/>
+
+</RelativeLayout>
