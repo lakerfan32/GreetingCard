@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:fontFamily="@font/STARWARS"
+        android:fontFamily="@font/starwars"
         android:paddingTop="16dp"
         android:text="Happy"
         android:textColor="@android:color/holo_red_dark"
@@ -33,7 +33,7 @@
         android:layout_centerHorizontal="true"
         android:paddingTop="16dp"
         android:textSize="36sp"
-        android:fontFamily="@font/STARWARS"
+        android:fontFamily="@font/starwars"
         android:textColor="@android:color/holo_red_dark"
         android:text="STAR WARS DAY" />
 
@@ -45,7 +45,7 @@
         android:layout_centerHorizontal="true"
         android:paddingBottom="14dp"
         android:textSize="36sp"
-        android:fontFamily="@font/STARWARS"
+        android:fontFamily="@font/starwars"
         android:textColor="@android:color/holo_red_dark"
         android:text="May the 4th"/>
 
@@ -57,7 +57,7 @@
         android:layout_centerHorizontal="true"
         android:paddingBottom="28dp"
         android:textSize="36sp"
-        android:fontFamily="@font/STARWARS"
+        android:fontFamily="@font/starwars"
         android:textColor="@android:color/holo_red_dark"
         android:text="be with you!"/>
 
